@@ -1,0 +1,130 @@
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.csstransforms3d.desktop .container,
+.csstransforms3d.tablet .container {
+  overflow: hidden;
+  perspective: 3884px;
+  perspective-origin: center;
+}
+.no-csstransforms3d .container {
+  overflow: auto;
+}
+
+.hexagone {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.preserve3d .hexagone {
+  transform-style: preserve-3d;
+  transform: translateZ(-480px);
+}
+.no-preserve3d .hexagone {
+  transform: translateZ(-750px);
+}
+
+.side-faces {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transition: all 1.5s ease-in-out;
+}
+.preserve3d.desktop .side-faces,
+.preserve3d.tablet .side-faces {
+  transform-style: preserve-3d;
+}
+
+.side {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.csstransforms3d.desktop .side,
+.csstransforms3d.tablet .side {
+  position: absolute;
+  transform: translateZ(-480px);
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+.no-csstransforms3d .side {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
+/*.csstransforms3d.desktop .side.active,
+.csstransforms3d.tablet .side.active {
+  transform: translateZ(480px);
+}*/
+
+
+.container.off-transform {
+  transition: 0s !important;
+  perspective: none !important;
+  overflow: visible !important;
+}
+.hexagone.off-transform {
+  transition: 0s !important;
+  transform: none !important;
+}
+.side-faces.off-transform {
+  transition: 0s !important;
+  transform: none !important;
+}
+.side.off-transform {
+  transition: 0s !important;
+  transform: none !important;
+  position: relative !important;
+}
+.layes-04.off-transform {
+  height: auto !important;
+}
+.off-transform .wrap_table_cell{
+  max-height: none !important;
+}
+
+.no-csstransforms3d.no-preserve3d .layes-01 .wrap__table {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.no-csstransforms3d.no-preserve3d .layes-01 .wrap_table_cell {
+  position: absolute;
+  left: 0;
+  top: 50% ;
+  margin-top: -160px;
+}
+.no-csstransforms3d.no-preserve3d .blLayes3-bl {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.no-csstransforms3d.no-preserve3d .blLayes3-bl.bl3-02 {
+    left: 50%;
+    top: 0;
+}
+.no-csstransforms3d.no-preserve3d .blLayes3-bl.bl3-03 {
+    left: 0;
+    top: 50%;
+}
+.no-csstransforms3d.no-preserve3d .blLayes3-bl.bl3-04 {
+    left: 50%;
+    top: 50%;
+}
+.no-csstransforms3d.no-preserve3d .layes-02,
+.no-csstransforms3d.no-preserve3d .layes-04 {
+    min-height: 500px;
+}
+.no-csstransforms3d.no-preserve3d .layes-04 .widthBl {
+    margin-bottom: 150px;
+}

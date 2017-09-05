@@ -1,0 +1,3 @@
+cd C:\Inetpub\vhosts\pcms.ai\httpdocs\speech
+
+php speech.php transcribe-words test/data/audio32KHz.flac --encoding FLAC --sample-rate 32000

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "third-ridge-176211",
+  "private_key_id": "3ac7ce9eaf502b658bee199dbc245e4c34737939",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC08yAwA3C5TbGU\nf3nrKaUnx67PUzFXpHLq/ISBO2xs0PeI3st5fjHTubirC9VnFklCWDmk6MtMNy7a\nOMwU2rfX9fQQgfS9+HxrgDfCuhYUuPCkeeLjGAqsh+/gGJitHOAV+osBEM31N7Rt\nkLKh2493Ef4wmkjz7d4JyTSFciPpoGeYTiqMWKSJOtNrVWNaNUOc/+97ksdDmHCW\nUQ+DREODlqehelTL5jcse2L6NUIOCZvy/8TtqAzwulwCUl6Edoyb231UTAp9/cC0\nJXH57YEY4uIzWG2UfJktq/psOC0G1YFcWm8TbwDOhgWVQXAI4oN3TtoX2iK07cR8\nKrqDi2//AgMBAAECggEAN3MlkvEK8w329A2YW9L4NFeBnzDcNwJC4PWe2UdPc40Z\nvcygR8u/EyWfjHLk42E18+m7SGi6G9HxPpgXGfDoU3qgXwqj6C8kWYECFV8W8yS1\nQYHEYFj2tGY3wNFov+vQU4viWuI+av22AblMtELnFNLjtRsibfWfjBonSRlwHeAw\nr2W0FkwEmW07Ibo8rRGffHbBKsDTlUjRXyLYziiA9FDIqFjl0aIhtsn8p0fWVZCJ\n2k9/r4XLpnyZLOW3h0DleZa61uvTWVWj85sYpalG0p51VsjAtvhmqat24LyJoPZe\nhqtW8JAWjRfSXYnKTQiIVnpn+KFVLtz3f7Am1dfU2QKBgQDhvZn6cMx+BaUrOE7M\nGhWIydXYXs7bVfSykbCoVY+WwRWq3tTBFzi85O3HyL3jY/YYCg2zCEdV/I6iJD5R\nLs82DWtRp+2LiKNSfTU5tJDHuXepHWNV6A3fVqmhlyrSWHpHsga0KYMGVym+pGPM\n6az+bRN29A2xuzm3TnLx4b1qswKBgQDNNICRmPB4sFrFZAVZZczxa2mm6y3fBtxr\nlUpmK+RIqLuI/VCJ+RRHUU75XYoc6OIADk2Hx+nBq6Y+I0ig4fSgkpdTAKg/SNwQ\nnAj1baGab9VhoZaD8C6PzI4PnD7sTC2fZkJfog2kW3cNjIGA0lviO99Y9FZXgRNb\nX6pd+iV7hQKBgDU4eUP1MhEIDa/J37H4+Fi+lR8lAwntEvrCpG6bdXXqYcxeKrS3\nX9YQ9wpiBnrEx3FVdXNfIUphd9M8TkDfk1TAByxCNhvug+rfwBuxuWyNCmwhlJjd\nU9/y051YQW1EFNgwXao+Gzj0ddAPe8QE15dIag1ibpQXevz/jtP+D6VHAoGBAKWV\nbwWNpsWMcMKFEjfwCG7qoMdbUJl9/NEnF3DYjA4Bccp5tcqP3cgqmRJpY3Auj2dC\nI1ekfkCUFMJhUFLZ4b7MayVEC399eG5Cqov4mgV3pnRwonb2kWvhwORhzPh6A/py\n1q46os10LN4W+c0Mca5dZ71s9FsJwafiyyOoHSTNAoGAB0wmvApgYW+TRzyNsEet\nJC9L+PPtBoJdF4Ckh93SBTD8s0Kwc4dvuJ9qf3eEwUKnEDrQK4YHQW3Ar/A1l20g\neMyEwERNhPxL9GJMEybx5Of0TL1UY3uP673/ROmbeXpojK0X3QTHheCJAcohLhTJ\n9TVQUL1O9s+Id2+yyBxq0Nc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scott-968@third-ridge-176211.iam.gserviceaccount.com",
+  "client_id": "102002090238493843753",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scott-968%40third-ridge-176211.iam.gserviceaccount.com"
+}
